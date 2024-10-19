@@ -43,7 +43,7 @@ export default function Home() {
               {/* </div> */}
               <p className="text-white text-lg max-lg:text-sm sm:text-sm font-semibold">Hi, I'm Ghaleb</p>
               <p className="text-white text-5xl max-lg:text-lg font-bold text-center">Front-End Developer</p>
-              <p className="text-white text-sm max-sm:text-xs text-center leading-8 max-sm:leading-7 tracking-wider w-full">
+              <p className="text-white text-sm text-center leading-8 max-sm:leading-7 tracking-wider w-full">
                 Front-end developer specializing in React, Next.js, and TypeScript, creating performant and responsive interfaces that blend aesthetics and functionality.
               </p>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
             </div>
             <div className="w-full h-[300px] flex flex-col gap-5">
               <p className="text-white text-2xl max-md:text-lg font-bold">Me</p>
-              <p className="text-sm max-md:text-xs leading-8 max-md:leading-7 tracking-wide text-justify">
+              <p className="text-sm max-md:text-sm leading-8 max-md:leading-7 tracking-wide text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Neque deleniti sapiente natus placeat voluptatibus.
                 Distinctio nam laboriosam voluptatibus aliquam.
@@ -183,12 +183,12 @@ export default function Home() {
                 <div className="flex flex-row items-center gap-4 border border-cyan-100/10 p-3 rounded-sm">
                   <MailIcon size={18} />
                   <div className="w-0 h-[15px] border border-cyan-300/30 rounded-md"></div>
-                  <p className="text-sm max-md:text-xs">saidalighaleb007@gmail.com</p>
+                  <p className="text-sm max-md:text-sm">saidalighaleb007@gmail.com</p>
                 </div>
                 <div className="w-full flex flex-row items-center gap-4 border border-cyan-100/10 p-3 rounded-sm mt-4">
                   <PhoneIcon size={18} />
                   <div className="w-0 h-[15px] border border-cyan-300/30 rounded-md"></div>
-                  <p className="text-sm max-md:text-xs">+261 32 39 869 63</p>
+                  <p className="text-sm max-md:text-sm">+261 32 39 869 63</p>
                 </div>
                 <div className="w-full grid grid-rows-1 grid-flow-col gap-4">
                   <Link href="https://github.com/Ghaleb10" target="_blank">
@@ -216,19 +216,19 @@ export default function Home() {
                 </div>
                 <div className="w-full flex flex-col gap-4 mt-6">
                   <div className="flex flex-col gap-2">
-                    <label htmlFor="nom" className="text-sm max-sm:text-xs">Your full name</label>
+                    <label htmlFor="nom" className="text-sm max-sm:text-sm">Your full name</label>
                     <input type="text" name="nom" id="nom"
-                      className="outline-none bg-white/10 p-2 rounded-sm text-sm max-sm:text-xs"
+                      className="outline-none bg-white/10 p-2 rounded-sm text-sm max-sm:text-sm"
                     />
                   </div>
                   <div className="flex flex-col gap-2">
-                    <label htmlFor="message" className="text-sm max-sm:text-xs">Your message</label>
+                    <label htmlFor="message" className="text-sm max-sm:text-sm">Your message</label>
                     <textarea name="message" id="message" rows={4}
-                      className="outline-none bg-white/10 p-2 rounded-sm text-sm max-sm:text-xs"
+                      className="outline-none bg-white/10 p-2 rounded-sm text-sm max-sm:text-sm"
                     >
                     </textarea>
                   </div>
-                  <button className="w-full p-2 rounded-sm bg-cyan-500 text-sm max-sm:text-xs">Send</button>
+                  <button className="w-full p-2 rounded-sm bg-cyan-500 text-sm max-sm:text-sm">Send</button>
                 </div>
               </div>
             </div>

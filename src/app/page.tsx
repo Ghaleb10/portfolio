@@ -2,7 +2,7 @@ import { DownloadIcon, MailIcon, PhoneIcon } from "lucide-react";
 import Image from "next/image";
 import ProfilTop from "./images/profil_top.png";
 import SteedyImage from "./images/steedy.png";
-import ZafyTodyImage from "./images/zafytody.png";
+import ZafyTodyImage from "./images/zafytody.jpg";
 import PortfolioImage from "./images/portfolio.png";
 import FiscaImage from "./images/fiscacompta.png";
 import MITImage from "./images/mit.png";

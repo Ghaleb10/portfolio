@@ -142,9 +142,9 @@ export default function Home() {
           </div>
 
           <div className="w-full flex flex-row max-lg:flex-col text-white p-4 gap-6">
-            <div className="w-full h-auto flex-1 max-lg:flex justify-center items-center p-12 px-14">
-              <div className="w-[150px] lg:w-[350px] h-[150px] lg:h-[350px] bg-[#070305] rounded-full shadow-xl">
-                <Image src={AboutImage} alt="" className="object-contain object-top w-[200px] lg:w-[400px] h-[200px] lg:h-[400px] relative bottom-16 lg-bottom-15" />
+            <div className="w-full h-auto flex-1 max-lg:flex justify-center items-center p-12 max-lg:p-0 px-14 max-lg:px-0">
+              <div className="w-[250px] lg:w-[350px] h-[250px] lg:h-[350px] bg-[#070305] rounded-full shadow-xl">
+                <Image src={AboutImage} alt="" className="object-contain object-top w-[300px] lg:w-[400px] h-[300px] lg:h-[400px] relative bottom-16 lg-bottom-15" />
               </div>
             </div>
             <div className="w-full h-[300px] flex flex-col gap-5">

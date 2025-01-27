@@ -7,7 +7,6 @@ import PortfolioImage from "./images/portfolio.png";
 import FiscaImage from "./images/fiscacompta.png";
 import MITImage from "./images/mit.png";
 import GameooImage from "./images/gameoo.png";
-import AboutImage from "./images/on_desk.jpg";
 import ReactImage from "./images/react.png";
 import NextImage from "./images/next.png";
 import TypeScriptImage from "./images/typescript.png";
@@ -62,10 +61,14 @@ export default function Home() {
               </div>
 
               <div className="w-full text-white flex max-md:justify-center">
-                <button className="animate-pulse min-w-[100px] max-w-[200px] text-sm py-2 px-4 flex flex-row items-center justify-center gap-4 border border-blue-500 rounded-md bg-blue-500 hover:bg-blue-600">
+                <a
+                  href="../app/images/CV_El'Ghaleb_Saïd_Ali_Mohamed.pdf"
+                  download="CV_El'Ghaleb_Saïd_Ali_Mohamed.pdf"
+                  className="animate-pulse min-w-[100px] max-w-[200px] text-sm py-2 px-4 flex flex-row items-center justify-center gap-4 border border-blue-500 rounded-md bg-blue-500 hover:bg-blue-600"
+                >
                   <DownloadIcon size="16" />
                   Get my resume
-                </button>
+                </a>
               </div>
             </div>
 

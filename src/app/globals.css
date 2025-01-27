@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lexend", sans-serif;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap') format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @layer utilities {
@@ -77,4 +84,10 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.about-img {
+  background: url('../app/images/on_desk.jpg');
+  background-size: cover;
+  background-position: center;
 }
